@@ -314,12 +314,16 @@ Counts change as new skills are added. For the current full registry, see [CATAL
 
 The web app is the fastest way to navigate a large repository like this.
 
+**Run locally:**
+
 ```bash
 npm run app:install
 npm run app:dev
 ```
 
 That will copy the generated skill index into `apps/web-app/public/skills.json`, mirror the current `skills/` tree into `apps/web-app/public/skills/`, and start the Vite development server.
+
+**Hosted on GitHub Pages:** The same app is deployed automatically on every push to `main`. Enable it once in the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**. The site will be available at `https://<owner>.github.io/antigravity-awesome-skills/`.
 
 ## Contributing
 
