@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1252
+Total skills: 1253
 
 ## architecture (81)
 
